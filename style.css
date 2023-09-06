@@ -1,0 +1,20 @@
+.accordion-button {
+  color: red;
+}
+.accordion-button:hover {
+  color: blue;
+  text-decoration: underline;
+}
+.accordion-button::after {
+  content: none;
+}
+
+.header {
+  text-align: center;
+  margin-left: 800px;
+  border-bottom: 2px solid rgb(217, 196, 196);
+  padding-bottom: 8px;
+  width: 300px;
+  margin-bottom: 40px;
+  color: rgb(217, 196, 196);
+}
